@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block main %}
+        <div class="profile_head">
+            <div class="info">
+                <img src="{{ url_for('static', filename='img/profile_pic.jpg') }}" alt="">
+                <p>Onandi Skeen</p>
+                <p>@onandi_skeen</p>
+                <p>St.Catherine, Jamaica</p>
+                <p>{{ date }}</p>
+            </div>
+            <div class="bio">
+                <p>I am a fun loving creative who enjoys listening to and making music. In my free time I play video games and football with my friends. My favourite movie is Love and Basketball.</p>
+                <div class="infomation">
+                    <div class="bio_info">
+                        <p><b>100</b></p>
+                        <p>Posts</p>
+                    </div>
+    
+                    <div class="bio_info">
+                        <p><b>100</b></p>
+                        <p>Following</p>
+                    </div>
+    
+                    <div class="bio_info">
+                        <p><b>150k</b></p>
+                        <p>Followers</p>  
+                    </div>
+                </div>
+
+                <button><strong>Follow</strong></button>
+                
+            </div>
+        </div>
+{% endblock %}

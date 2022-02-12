@@ -1,3 +1,75 @@
 body {
     padding-top: 5rem;
 }
+
+main .container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_head img{
+    border-radius: 50%;
+    margin-bottom: 15px;
+    width: 24vh;
+    height: 24vh;
+}
+
+.info p {
+    padding: 0;
+    margin: 2px;
+}
+
+.info {
+    width: 100vh;
+    border-style: solid;
+    border-bottom: none;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-color: gray;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.bio {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 17px;
+    border-style: solid;
+    border-top: none;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-color: gray;
+}
+
+.infomation {
+    display: flex;
+}
+
+.bio_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+button {
+    background-color: #5cdb5c;
+    border-style: none;
+    border-radius: 15px;
+    width: 25vh;
+    height: 5vh;
+}
+
+button strong {
+    color: white;
+}
